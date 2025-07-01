@@ -1,4 +1,4 @@
-name: 'IssueBadge Sender'
+name: 'IssueBadge'
 description: 'Send developer badges using IssueBadge.com API'
 inputs:
   api_key:
