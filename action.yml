@@ -1,0 +1,18 @@
+name: 'IssueBadge Sender'
+description: 'Send developer badges using IssueBadge.com API'
+inputs:
+  api_key:
+    description: 'API key for IssueBadge'
+    required: true
+  badge_id:
+    description: 'ID of the badge to issue'
+    required: true
+  name:
+    description: 'Name of the recipient'
+    required: true
+  email:
+    description: 'Email of the recipient'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
