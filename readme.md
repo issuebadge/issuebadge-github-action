@@ -1,8 +1,8 @@
-# ðŸš€ IssueBadge GitHub Action
+#  IssueBadge GitHub Action
 
 Send a digital badge or certificate to your contributors automatically using [IssueBadge](https://issuebadge.com), right from your GitHub Actions workflow.
 
-## ðŸ”§ Inputs
+## Inputs
 
 | Name      | Description                        | Required |
 |-----------|------------------------------------|----------|
@@ -13,7 +13,7 @@ Send a digital badge or certificate to your contributors automatically using [Is
 
 ---
 
-## âœ… Example Usage
+## Example Usage
 
 ```yaml
 name: Send Badge on PR Merge
@@ -38,7 +38,7 @@ jobs:
 
 ---
 
-## ðŸ”’ Authentication
+##  Authentication
 
 Store your API key in your GitHub repository **Secrets**:
 
@@ -48,13 +48,13 @@ Store your API key in your GitHub repository **Secrets**:
 
 ---
 
-## ðŸ“¬ About IssueBadge
+##  About IssueBadge
 
 [IssueBadge](https://issuebadge.com) lets you reward contributors with branded digital badges and certificates. Perfect for open-source teams, hackathons, internal DevRel, and more.
 
 ---
 
-## ðŸ›  Setup
+##   Setup
 
 This GitHub Action is powered by:
 - `node-fetch`
@@ -70,6 +70,6 @@ node index.js
 
 ---
 
-## ðŸ“ƒ License
+##  License
 
 MIT
